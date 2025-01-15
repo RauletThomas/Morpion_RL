@@ -7,6 +7,7 @@ L'objectif de ce projet est d'implémenter différent algorithme de reinforcemen
 - [Introduction](#introduction)
 - [Définition des états](#Définition-des-états)
 - [Définition des actions et des récompense](#Défnition-des-actions-et-des-récompenses)
+- [Définition de $\pi$ et de $Q$
 
 ## Introduction 
 Ce projet est à pour but de manipuler des algorithme de RL sans librairie particulière, exepté numpy.
@@ -65,3 +66,21 @@ $S_n$ est gagant pour le joueur 1 $\Rightarrow R_n = 10$
 $S_n$ est gagant pour le joueur 2 $\Rightarrow R_n = -10$
 
 $S_n$ est un match nul ou si le jeu n'est pas fini $\Rightarrow R_n = 0$
+
+## Comment utiliser les algorithmes
+
+Pour entrainer un modèle sur l'un des algorithme, il faut copier la tableau `Pi` et `Q` 
+
+`pi_MC = pi.copy()`
+
+`Q_MC = Q.copy()`
+Puis il faut appeller la fonction associé en donnant les hyperparamètre 
+`pi_MC , Q_MC = Monte_Carlo(pi_MC,Q_MC,k = 15000,n=4000)`
+
+Les hyperparamètre sont spécifier dans le code 
+
+Puis pour tester le niveau de notre agent, on utilise la fonction `match`
+
+`match(pi_MC)`
+
+
