@@ -17,5 +17,5 @@ Un état est représenter par une liste python de longeur 9, représentant les 9
 
 0 représente une case vide, 1 une croix et -1 un rond.
 #### Exemple :
-'E = [1,1,0,0,1,0,1,0,0]' donne <img width="165" alt="image" src="https://github.com/user-attachments/assets/7e32607a-8e1d-4361-879c-4935bb29bc06" />
+`E = [1,1,0,0,1,0,1,0,0]` donne <img width="165" alt="image" src="https://github.com/user-attachments/assets/7e32607a-8e1d-4361-879c-4935bb29bc06" />
 
