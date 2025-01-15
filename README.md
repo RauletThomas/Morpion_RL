@@ -46,7 +46,7 @@ La probabilité de se retrouver dans un état S_n+1 sachant S_n est 1/nombre de 
 
 ## Défnition des actions et des récompenses 
 
-L'ensemble des actions est définit par $A = {0,1,2,3,4,5,6,7,8}$
+L'ensemble des actions est définit par $A = \{0,1,2,3,4,5,6,7,8\}$
 
 Une action est donc simplement un chiffre, représentant la case du plateau.
 
@@ -54,12 +54,12 @@ Attention : la liste des actions pour un état donné est un sous ensemble de A 
 
 <img width="84" alt="image" src="https://github.com/user-attachments/assets/c2e08613-7983-444f-b814-9a3699cbf3b4" />
 
-L'ensemble des actions est ${2,3,5,7,8}$
+L'ensemble des actions est $\{2,3,5,7,8\}$
 
 On sait maintenant à partir d'un couple $(S_n,a_n)$ obtenir l'état $S_n+1$
 La récompense $R_n+1$ ne dépend que de $S_n+1$ selon si il est terminal ou non 
 
-$S_n$ est gagant pour le joueur 1 $ \Rightarrow R_n = 10$
+$S_n$ est gagant pour le joueur 1 $\Rightarrow R_n = 10$
 
 $S_n$ est gagant pour le joueur 2 -> R_n = -10
 
