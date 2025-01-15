@@ -5,10 +5,11 @@ L'objectif de ce projet est d'implémenter différent algorithme de reinforcemen
 ## Table des matières 
 
 - [Introduction](#introduction)
-- [Définition des états](#Définition)
+- [Définition des états](#Définition_des_états)
+- [Définition des actions et des récompense](#Définition)
 
 ## Introduction 
-Ce projet est à pour but de manipuler des algorithme de RL sans librairie particulière, exepté python.
+Ce projet est à pour but de manipuler des algorithme de RL sans librairie particulière, exepté numpy.
 Il se compose d'une première partie de code qui définit l'ensemble des états possible, puis l'implémentation de différent algorithme, Monte-Carlo et Sarsa pour le moment, et enfin d'une partie pour créer des modèle en variant les hyperparametre et tester contre nous le niveau atteint pour jouer au morpion 
 
 ## Définition des états 
