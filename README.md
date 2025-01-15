@@ -6,7 +6,7 @@ L'objectif de ce projet est d'implémenter différent algorithme de reinforcemen
 
 - [Introduction](#introduction)
 - [Définition des états](#Définition-des-états)
-- [Définition des actions et des récompense](#Définition)
+- [Définition des actions et des récompense](#Défnition-des-actions-et-des-récompenses)
 
 ## Introduction 
 Ce projet est à pour but de manipuler des algorithme de RL sans librairie particulière, exepté numpy.
