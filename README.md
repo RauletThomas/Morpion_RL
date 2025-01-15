@@ -40,5 +40,16 @@ Le joueur 2 à donc 4 coup possible pour jouer , il choisit de jouer dans la cas
 
 <img width="88" alt="image" src="https://github.com/user-attachments/assets/61e27206-b2f0-4e26-bfa9-350c3ae2519a" />
 
-Ce dernier état représente effectivement l'état S_2, celui qui suit S_1. Le pour le joueur 2 de prendre la case 5 est alétoire, suivant une loi uniforme sur l'ensemble des coups possible.
+Ce dernier état représente effectivement l'état S_2, celui qui suit S_1. Le choix pour le joueur 2 de prendre la case 5 est alétoire, suivant une loi uniforme sur l'ensemble des coups possible.
 
+La probabilité de se retrouver dans un état S_n+1 sachant S_n est 1/nombre de coup possible
+
+## Défnition des actions et des récompenses 
+
+A = {0,1,2,3,4,5,6,7,8}
+Une action est donc simplement un chiffre, représentant la case du plateau.
+Attention : la liste des actions pour un état donné est un sous ensemble de A qui doit être calculé pour chaque état 
+
+<img width="84" alt="image" src="https://github.com/user-attachments/assets/c2e08613-7983-444f-b814-9a3699cbf3b4" />
+
+L'ensemble des actions est {3,4,6,8,9}
