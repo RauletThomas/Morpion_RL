@@ -44,7 +44,7 @@ Le joueur 2 à donc 4 coup possible pour jouer , il choisit de jouer dans la cas
 
 Ce dernier état représente effectivement l'état $S_2$, celui qui suit $S_1$. Le choix pour le joueur 2 de prendre la case 5 est alétoire, suivant une loi uniforme sur l'ensemble des coups possible.
 
-La probabilité de se retrouver dans un état $S_{n+1}$ sachant $S_n$ est $\frac{1}{nombre de coup possible}$
+La probabilité de se retrouver dans un état $S_{n+1}$ sachant $S_n$ est $\frac{1}{\text{nombre de coup possible}}$
 
 ## Défnition des actions et des récompenses 
 
