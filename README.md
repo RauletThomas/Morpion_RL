@@ -7,7 +7,7 @@ L'objectif de ce projet est d'implémenter différent algorithme de reinforcemen
 - [Introduction](#introduction)
 - [Définition des états](#Définition-des-états)
 - [Définition des actions et des récompense](#Défnition-des-actions-et-des-récompenses)
-- [Définition de $\pi$ et de $Q$
+- [Comment utiliser les algorithmes](#Comment-utiliser-les-algorithmes)
 
 ## Introduction 
 Ce projet est à pour but de manipuler des algorithme de RL sans librairie particulière, exepté numpy.
@@ -30,7 +30,7 @@ Un état suivit d'une action nous emmène donc directement dans un nouvel état 
 
 #### Exemple:
 
-Nous nous situons dans l'état ci dessous, S_1
+Nous nous situons dans l'état ci dessous, $S_1$
 
 <img width="84" alt="image" src="https://github.com/user-attachments/assets/c2e08613-7983-444f-b814-9a3699cbf3b4" />
 
@@ -42,13 +42,13 @@ Le joueur 2 à donc 4 coup possible pour jouer , il choisit de jouer dans la cas
 
 <img width="88" alt="image" src="https://github.com/user-attachments/assets/61e27206-b2f0-4e26-bfa9-350c3ae2519a" />
 
-Ce dernier état représente effectivement l'état S_2, celui qui suit S_1. Le choix pour le joueur 2 de prendre la case 5 est alétoire, suivant une loi uniforme sur l'ensemble des coups possible.
+Ce dernier état représente effectivement l'état $S_2$, celui qui suit $S_1$. Le choix pour le joueur 2 de prendre la case 5 est alétoire, suivant une loi uniforme sur l'ensemble des coups possible.
 
 La probabilité de se retrouver dans un état $S_{n+1}$ sachant $S_n$ est $\frac{1}{nombre de coup possible}$
 
 ## Défnition des actions et des récompenses 
 
-L'ensemble des actions est définit par $A = \ {0,1,2,3,4,5,6,7,8 \}$
+L'ensemble des actions est définit par $A = \{ 0,1,2,3,4,5,6,7,8 \}$
 
 Une action est donc simplement un chiffre, représentant la case du plateau.
 
