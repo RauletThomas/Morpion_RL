@@ -69,18 +69,18 @@ $S_n$ est un match nul ou si le jeu n'est pas fini $\Rightarrow R_n = 0$
 
 ## Comment utiliser les algorithmes
 
-Pour entrainer un modèle sur l'un des algorithme, il faut copier la tableau `Pi` et `Q` 
-
-`pi_MC = pi.copy()`
-
-`Q_MC = Q.copy()`
-Puis il faut appeller la fonction associé en donnant les hyperparamètre 
-`pi_MC , Q_MC = Monte_Carlo(pi_MC,Q_MC,k = 15000,n=4000)`
+Pour entrainer un modèle sur l'un des algorithme, il faut copier la tableau `Pi` et `Q` et appeller la fonction associé en donnant les hyperparamètre :
+```
+pi_MC = pi.copy()
+Q_MC = Q.copy()
+pi_MC , Q_MC = Monte_Carlo(pi_MC,Q_MC,k = 15000,n=4000)
+```
 
 Les hyperparamètre sont spécifier dans le code 
 
-Puis pour tester le niveau de notre agent, on utilise la fonction `match`
+### Jouer avec notre agent 
 
-`match(pi_MC)`
+Il possible de jouer contre un agent, avec la fonction match : `match(pi_MC)`
+
 
 
