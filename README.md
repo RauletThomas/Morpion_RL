@@ -5,7 +5,7 @@ L'objectif de ce projet est d'implémenter différent algorithme de reinforcemen
 ## Table des matières 
 
 - [Introduction](#introduction)
-- [Définition des états](#Définition_des_états)
+- [Définition des états](#Définition-des-états)
 - [Définition des actions et des récompense](#Définition)
 
 ## Introduction 
